@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Factory.Filtering
+namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Strategies.Filtering
 {
     internal interface IFilteringStrategy
     {

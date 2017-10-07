@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Factory.Sorting
+namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Strategies.Sorting
 {
     internal class ReflectionBasedPropertyTypeInferringSortingStrategy : ISortingStrategy
     {

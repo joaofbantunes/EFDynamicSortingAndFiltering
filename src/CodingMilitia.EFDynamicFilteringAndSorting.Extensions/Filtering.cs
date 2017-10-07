@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Factory.Filtering;
+using CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Strategies.Filtering;
 
 namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions
 {

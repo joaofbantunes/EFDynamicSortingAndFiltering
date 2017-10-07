@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Factory.Sorting
+namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Strategies.Sorting
 {
     internal interface ISortingStrategy
     {

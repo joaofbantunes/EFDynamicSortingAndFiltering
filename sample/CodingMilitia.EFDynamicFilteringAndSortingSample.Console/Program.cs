@@ -13,9 +13,6 @@ namespace CodingMilitia.EFDynamicFilteringAndSortingSample.Console
 
         static void Main(string[] args)
         {
-            Sorting.SetupTestingEnvironment(SortingExpressionStrategy.Reflection, true);
-            Filtering.SetupTestingEnvironment(FilteringExpressionStrategy.Reflection, true);
-
             var serviceProvider = new ServiceCollection()
                 .AddDbContext<SampleContext>(options => options.UseNpgsql(ConnectionString))
                 .BuildServiceProvider();

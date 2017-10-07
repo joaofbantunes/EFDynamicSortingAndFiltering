@@ -1,4 +1,4 @@
-﻿using CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Factory.Sorting;
+﻿using CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Strategies.Sorting;
 using System.Linq;
 using System;
 

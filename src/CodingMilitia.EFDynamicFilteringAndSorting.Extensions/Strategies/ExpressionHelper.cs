@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Factory
+namespace CodingMilitia.EFDynamicFilteringAndSorting.Extensions.Strategies
 {
     internal static class ExpressionHelper
     {
