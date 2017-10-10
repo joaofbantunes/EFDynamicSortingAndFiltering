@@ -1,17 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EAED7C86-411A-459A-9EBF-78184CE7EA71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.EFDynamicFilteringAndSorting.Extensions", "src\CodingMilitia.EFDynamicFilteringAndSorting.Extensions\CodingMilitia.EFDynamicFilteringAndSorting.Extensions.csproj", "{08ED3F67-0381-4612-AA27-71960695BA0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingMilitia.EFDynamicFilteringAndSorting.Extensions", "src\CodingMilitia.EFDynamicFilteringAndSorting.Extensions\CodingMilitia.EFDynamicFilteringAndSorting.Extensions.csproj", "{08ED3F67-0381-4612-AA27-71960695BA0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{373F26C7-FCE5-44D9-88EF-18C6E2E17D7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.EFDynamicFilteringAndSortingSample.Console", "sample\CodingMilitia.EFDynamicFilteringAndSortingSample.Console\CodingMilitia.EFDynamicFilteringAndSortingSample.Console.csproj", "{354BA648-221E-447E-8C37-B0A6DCF617AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingMilitia.EFDynamicFilteringAndSortingSample.Console", "sample\CodingMilitia.EFDynamicFilteringAndSortingSample.Console\CodingMilitia.EFDynamicFilteringAndSortingSample.Console.csproj", "{354BA648-221E-447E-8C37-B0A6DCF617AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.EFDynamicFilteringAndSortingSample.Data", "sample\CodingMilitia.EFDynamicFilteringAndSortingSample.Data\CodingMilitia.EFDynamicFilteringAndSortingSample.Data.csproj", "{F95B1C26-8E3B-40CB-82BD-D08686B7B810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingMilitia.EFDynamicFilteringAndSortingSample.Data", "sample\CodingMilitia.EFDynamicFilteringAndSortingSample.Data\CodingMilitia.EFDynamicFilteringAndSortingSample.Data.csproj", "{F95B1C26-8E3B-40CB-82BD-D08686B7B810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{D3E616B5-2FA7-49AB-8035-7E8D7523C0A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingMilitia.EFDynamicFilteringAndSorting.Benchmark", "benchmark\CodingMilitia.EFDynamicFilteringAndSorting.Benchmark\CodingMilitia.EFDynamicFilteringAndSorting.Benchmark.csproj", "{1B05397F-89D5-4ACF-B2CF-AEE38630529F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{08ED3F67-0381-4612-AA27-71960695BA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -62,10 +63,26 @@ Global
 		{F95B1C26-8E3B-40CB-82BD-D08686B7B810}.Release|x64.Build.0 = Release|Any CPU
 		{F95B1C26-8E3B-40CB-82BD-D08686B7B810}.Release|x86.ActiveCfg = Release|Any CPU
 		{F95B1C26-8E3B-40CB-82BD-D08686B7B810}.Release|x86.Build.0 = Release|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Debug|x64.Build.0 = Debug|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Debug|x86.Build.0 = Debug|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Release|x64.ActiveCfg = Release|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Release|x64.Build.0 = Release|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{08ED3F67-0381-4612-AA27-71960695BA0C} = {EAED7C86-411A-459A-9EBF-78184CE7EA71}
 		{354BA648-221E-447E-8C37-B0A6DCF617AB} = {373F26C7-FCE5-44D9-88EF-18C6E2E17D7D}
 		{F95B1C26-8E3B-40CB-82BD-D08686B7B810} = {373F26C7-FCE5-44D9-88EF-18C6E2E17D7D}
+		{1B05397F-89D5-4ACF-B2CF-AEE38630529F} = {D3E616B5-2FA7-49AB-8035-7E8D7523C0A0}
 	EndGlobalSection
 EndGlobal
